@@ -1,0 +1,3725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <Device>
+    <ExportSource>
+      <Schema>39</Schema>
+      <DeviceMOT>22412</DeviceMOT>
+    </ExportSource>
+    <Name>CB_101_07_400A</Name>
+    <Manufacturer>Any</Manufacturer>
+    <Model>Other</Model>
+    <Connection>
+      <Protocol>ModbusClient</Protocol>
+      <ConnectionType>Ethernet</ConnectionType>
+      <SettingPages>
+        <SettingPage>
+          <Name>Settings</Name>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Device GUID</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server MODBUS Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>8</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Intermessage Transmit Delay</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>40</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server IP Address</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>192.168.2.3</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Server IP Port</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>502</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Use Shared TCP Connection</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Poll Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>2000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Poll Retries</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Slow Poll Mode Multiplier</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Write Multiple Coils Supported</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Write Multiple Holding Registers Supported</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Number Max Of Client Transaction</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Polling period between requests to locate New Events</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>300000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Event Name Format</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Default</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>COMNAME Event Name String</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>StationId,DeviceId,Company</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>ASCII SER Logging Polling Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>3600000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>ASCII SER Logging Severity Level</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>Debug</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Adjust ASCII SER Logging Timestamps</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Coils</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Discrete Inputs</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Holding Registers</Name>
+          <Commands>
+            <AddItems>
+              <Quantity>6</Quantity>
+            </AddItems>
+          </Commands>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.A_COMMAND</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INC</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Register Address Start</Column>
+              <Value>7999</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>7999</Value>
+            </Setting>
+            <Setting>
+              <Column>Variation</Column>
+              <Value>16 bit unsigned MSB</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value>904=OPEN, 905=CLOSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.A_COMMAND.status</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>7999</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>7999</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>H H Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>H Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L L Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.A_COMMAND.oper</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>operINC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>7999</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>7999</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Control Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.B_LENGTH</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INC</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Register Address Start</Column>
+              <Value>8000</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8000</Value>
+            </Setting>
+            <Setting>
+              <Column>Variation</Column>
+              <Value>16 bit unsigned MSB</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value>10</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.B_LENGTH.status</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8000</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8000</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>H H Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>H Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L L Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.B_LENGTH.oper</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>operINC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8000</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8000</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Control Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.C_DESTINATION</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INC</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Register Address Start</Column>
+              <Value>8001</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8001</Value>
+            </Setting>
+            <Setting>
+              <Column>Variation</Column>
+              <Value>16 bit unsigned MSB</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value>4353</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.C_DESTINATION.status</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8001</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8001</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>H H Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>H Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L L Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.C_DESTINATION.oper</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>operINC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8001</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8001</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Control Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.D_SECURITY</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INC</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Register Address Start</Column>
+              <Value>8002</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8002</Value>
+            </Setting>
+            <Setting>
+              <Column>Variation</Column>
+              <Value>16 bit unsigned MSB</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value>1</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.D_SECURITY.status</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8002</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8002</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>H H Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>H Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L L Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.D_SECURITY.oper</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>operINC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8002</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8002</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Control Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.E_PASSWORD</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INC</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Register Address Start</Column>
+              <Value>8003</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8003</Value>
+            </Setting>
+            <Setting>
+              <Column>Variation</Column>
+              <Value>16 bit unsigned MSB</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.E_PASSWORD.status</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8003</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8003</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>H H Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>H Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L L Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.E_PASSWORD.oper</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>operINC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8003</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8003</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Control Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.F_PASSWORD_EXT</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INC</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Register Address Start</Column>
+              <Value>8004</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8004</Value>
+            </Setting>
+            <Setting>
+              <Column>Variation</Column>
+              <Value>16 bit unsigned MSB</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.F_PASSWORD_EXT.status</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8004</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8004</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Control Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>H H Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>H Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>L L Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.F_PASSWORD_EXT.oper</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>operINC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Start</Column>
+              <Value>8004</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Register Address Stop</Column>
+              <Value>8004</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Variation</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Bit Reference</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Control Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Set Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Inst Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Magnitude</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Zero Deadband</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>H Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>L L Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Input Registers</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Read Coil Polls</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Read Discrete Input Polls</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Read Holding Register Polls</Name>
+          <Commands>
+            <AddItems>
+              <Start>6</Start>
+              <Quantity>1</Quantity>
+            </AddItems>
+          </Commands>
+          <Row>
+            <Setting>
+              <Column>Poll Number</Column>
+              <Value>6</Value>
+            </Setting>
+            <Setting>
+              <Column>Starting Address</Column>
+              <Value>7999</Value>
+            </Setting>
+            <Setting>
+              <Column>Quantity</Column>
+              <Value>21</Value>
+            </Setting>
+            <Setting>
+              <Column>Poll Period</Column>
+              <Value>2000</Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Read Input Register Polls</Name>
+        </SettingPage>
+        <SettingPage>
+          <Name>Report Server ID Poll</Name>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.Server_ID</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>High High Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>High Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>Low Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>Low Low Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting>
+              <Column>STR Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.Run_Indicator_Status</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>INS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>0</Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value>2147483647</Value>
+            </Setting>
+            <Setting>
+              <Column>High High Limit</Column>
+              <Value>1932735282</Value>
+            </Setting>
+            <Setting>
+              <Column>High Limit</Column>
+              <Value>1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>Low Limit</Column>
+              <Value>-1717986918</Value>
+            </Setting>
+            <Setting>
+              <Column>Low Low Limit</Column>
+              <Value>-1932735283</Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value>-2147483648</Value>
+            </Setting>
+            <Setting>
+              <Column>STR Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>CB_101_07_400A_MODBUS.Server_ID_Data</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>STR</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Max Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>High High Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>High Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Low Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Low Low Limit</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Min Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>STR Value</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>POU Pin Settings</Name>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Acknowledge_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ASCII_SER_Logging_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ASCII_SER_Logging_Pending</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ASCII_SER_Logging_Sequence_Restart</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ASCII_SER_Logging_Stored</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ASCII_SER_Logging_Stored_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Buffer_Overflow</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Buffer_Overflow_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Controls_Disabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Direct_Transparent_Connection</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Disable_Controls</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Disable_Tag_Updates</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>EN</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Enable_ASCII_SER_Logging</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Enable_Event_Collection</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>ENO</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Event_Collection_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Event_Collection_Pending</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Event_Collection_Stored</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Event_Collection_Stored_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Gateway_Path_Unavailable_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Gateway_Target_Failure_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Illegal_Data_Address_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Illegal_Data_Value_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Illegal_Function_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Invalid_Function_Block_Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Issue_Read_Holding_Registers_6</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Issue_Read_Holding_Registers_6_Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>TIME</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>T#2000MS</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Memory_Parity_Error_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>USINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Failure_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Received_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Sent_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Success_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Timeout</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Message_Timeout_Count</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>UDINT</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>0</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Offline</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>TRUE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Other_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Report_Server_ID_Poll</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Report_Server_ID_Poll_Period</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>TIME</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>T#0MS</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Reset_Statistics</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Input</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting>
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Server_Device_Busy_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Server_Device_Failure_Exception</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Visible</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Name</Column>
+              <Value>Slow_Poll_Mode_Enabled</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Type</Column>
+              <Value>Output</Value>
+            </Setting>
+            <Setting>
+              <Column>Pin Point Type</Column>
+              <Value>BOOL</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Default Value</Column>
+              <Value>FALSE</Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+      </SettingPages>
+      <ControllerPOU><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+  <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+  <Single Name="Implementation" Type="{32d3375e-c010-41e2-9e43-b2fbf4f2b374}" Method="IArchivable">
+    <Single Name="Items" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+      <List2 Name="InnerList">
+        <Single Type="{f5becf35-b1f3-4274-b411-81d4b63a1516}" Method="IArchivable">
+          <Single Name="Inputs" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">19</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">21</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">23</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">25</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">27</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">29</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">111</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">113</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Outputs" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">31</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">33</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">35</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">37</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">39</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">41</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">43</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">45</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">47</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">49</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">51</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">53</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">55</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">57</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">59</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">61</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">63</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">65</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">67</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">69</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">71</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">73</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">75</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">77</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Texts" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">EN</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">20</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Disable_Tag_Updates</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">22</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Disable_Controls</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">24</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Reset_Statistics</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">26</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Enable_Event_Collection</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">28</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Enable_ASCII_SER_Logging</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">30</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Issue_Read_Holding_Registers_6</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">112</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Issue_Read_Holding_Registers_6_Period</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">114</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">ENO</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">32</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Offline</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">34</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Sent_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">36</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Received_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">38</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Failure</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">40</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Failure_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">42</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Timeout</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">44</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Timeout_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">46</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Success_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">48</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Invalid_Function_Block_Input</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">50</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Controls_Disabled</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">52</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Slow_Poll_Mode_Enabled</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">54</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">56</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Illegal_Function_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">58</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Illegal_Data_Address_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">60</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Illegal_Data_Value_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">62</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Server_Device_Failure_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">64</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Acknowledge_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">66</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Server_Device_Busy_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">68</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Memory_Parity_Error_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">70</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Gateway_Path_Unavailable_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">72</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Gateway_Target_Failure_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">74</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Other_Exception</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">76</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Direct_Transparent_Connection</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">78</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">CB_101_07_400A_MODBUS_POU_TYPE</Single>
+                <Single Name="Modifiable" Type="bool">False</Single>
+                <Single Name="Id" Type="long">10</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">CB_101_07_400A_MODBUS_POU</Single>
+                <Single Name="Modifiable" Type="bool">False</Single>
+                <Single Name="Id" Type="long">11</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Parameters" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList" />
+          </Single>
+          <Null Name="PreparedParameters" />
+          <Single Name="PageArea" Type="int">0</Single>
+          <Single Name="Bounds" Type="string">3, 0, 0, 0</Single>
+          <Null Name="ElementGroupId" />
+          <Single Name="EnEno" Type="bool">False</Single>
+          <Single Name="KindOfCall" Type="{77f43dfe-ca6a-4869-828f-7609d8ed6ea6}">FunctionBlock</Single>
+          <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+          <Single Name="Forced" Type="bool">False</Single>
+          <Single Name="IsFeedbackStart" Type="bool">False</Single>
+          <Single Name="OwningPageId" Type="long">-1</Single>
+          <Single Name="Id" Type="long">9</Single>
+        </Single>
+      </List2>
+    </Single>
+    <Null Name="ParameterInitializationMethodGenerator" />
+    <Single Name="RoutingPathTable" Type="{4b8bcc79-5980-4868-b49e-005a8148859b}" Method="IArchivable">
+      <Dictionary2 Name="InnerDictionary" />
+    </Single>
+    <Single Name="AutoSizeCanvas" Type="bool">True</Single>
+    <Single Name="CanvasWidth" Type="int">30</Single>
+    <Single Name="CanvasHeight" Type="int">28</Single>
+    <Single Name="EditorConfiguration" Type="{4f1e43e3-0667-4421-ad70-d7adf37c167a}" Method="IArchivable">
+      <Single Name="HideNamespaces" Type="bool">False</Single>
+    </Single>
+    <Single Name="AreElementsSpaceOptimized" Type="bool">True</Single>
+  </Single>
+  <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+    <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+      <Single Name="TextBlobForSerialisation" Type="string">PROGRAM CB_101_07_400A_MODBUS_Controller
+VAR
+END_VAR
+VAR_EXTERNAL
+{attribute 'symbol' := 'none'}
+	CB_101_07_400A_MODBUS_POU:CB_101_07_400A_MODBUS_POU_TYPE;
+END_VAR
+
+
+
+
+
+</Single>
+      <Single Name="LineInfoPersistence" Type="string">c16f0286-2e7c-55cd-8fe7-c544fa0de359_Decl_LineIds</Single>
+    </Single>
+  </Single>
+  <Single Name="UniqueIdGenerator" Type="string">171</Single>
+  <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+  <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+  <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+</Single>]]></ControllerPOU>
+    </Connection>
+  </Device>
+</RTACModule>

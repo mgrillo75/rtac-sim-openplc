@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <EtherCATNetwork>
+    <ExportSource>
+      <Schema>39</Schema>
+      <DeviceMOT>22412</DeviceMOT>
+    </ExportSource>
+    <Nodes>
+      <Node>
+        <Name>Node 1</Name>
+        <SlotCount>10</SlotCount>
+        <StartingSlot>A</StartingSlot>
+        <Slots>
+          <Slot>
+            <Device>SEL-2241</Device>
+          </Slot>
+          <Slot>
+            <Device>SEL2240_Coupler_1_ECAT</Device>
+          </Slot>
+          <Slot>
+            <Device>SEL2240_DI_1_ECAT</Device>
+          </Slot>
+          <Slot>
+            <Device>SEL2240_DO_1_ECAT</Device>
+          </Slot>
+        </Slots>
+      </Node>
+    </Nodes>
+    <SettingPages>
+      <SettingPage>
+        <Name>Settings</Name>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Synchrophasor Messaging Rate</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>60</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Synchrophasor Performance Class</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>M</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Asynchronous Output Operation</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>PMU Latitude</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>PMU Longitude</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>PMU Elevation</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>0</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+        <Row>
+          <Setting enabled="false">
+            <Column>Setting</Column>
+            <Value>Optimize Event Download</Value>
+          </Setting>
+          <Setting>
+            <Column>Value</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Comment</Column>
+            <Value />
+          </Setting>
+        </Row>
+      </SettingPage>
+      <SettingPage>
+        <Name>POU Pin Settings</Name>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Buffer_Overflow</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>FALSE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Buffer_Overflow_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Client_Average_us</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Client_Last_us</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Client_Max_us</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Client_State</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>1</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Configuration_Failure</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>FALSE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Disable_On_Network_Error</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Input</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>TRUE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Disable_Tag_Updates</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Input</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>FALSE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>EN</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Input</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>TRUE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>ENO</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>FALSE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Message_Failure_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Message_Received_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Message_Sent_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Message_Success_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Offline</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>FALSE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Reconfigure_Topology_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Reset_Statistics</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Input</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>FALSE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Server_Alias_Program_Error</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>BOOL</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>FALSE</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Servers_Attached_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>True</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Servers_Detached_Count</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+        <Row>
+          <Setting>
+            <Column>Visible</Column>
+            <Value>False</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Name</Column>
+            <Value>Time_Synchronization</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Type</Column>
+            <Value>Output</Value>
+          </Setting>
+          <Setting>
+            <Column>Pin Point Type</Column>
+            <Value>UDINT</Value>
+          </Setting>
+          <Setting>
+            <Column>Default Value</Column>
+            <Value>0</Value>
+          </Setting>
+        </Row>
+      </SettingPage>
+    </SettingPages>
+    <ControllerPOU><![CDATA[<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{6f9dac99-8de1-4efc-8465-68ac443b7d08}" Method="IArchivable">
+  <Single Name="SpecialFunc" Type="{0db3d7bb-cde0-4416-9a7b-ce49a0124323}">None</Single>
+  <Single Name="Implementation" Type="{32d3375e-c010-41e2-9e43-b2fbf4f2b374}" Method="IArchivable">
+    <Single Name="Items" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+      <List2 Name="InnerList">
+        <Single Type="{f5becf35-b1f3-4274-b411-81d4b63a1516}" Method="IArchivable">
+          <Single Name="Inputs" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">19</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">21</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">23</Single>
+              </Single>
+              <Single Type="{c994f6e0-311a-4a1c-bc38-75fe34892406}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="IsExtensiblePin" Type="bool">False</Single>
+                <Single Name="ProcessValue" Type="string"></Single>
+                <Single Name="Access" Type="{88453c7d-d652-4a27-a1b0-a1953be49a5c}">None</Single>
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">25</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Outputs" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">27</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">29</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">31</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">33</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">35</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">37</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">39</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">41</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">43</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">45</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">47</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">49</Single>
+              </Single>
+              <Single Type="{65582d84-cf18-4ca0-be59-bf5a3d00b8f8}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Negated" Type="bool">False</Single>
+                <Single Name="SetReset" Type="{24449d48-c96a-49c4-b9d1-a4ea34aedce3}">None</Single>
+                <Single Name="SetResetRef" Type="{233bc97c-69fe-4d29-b40e-a9a9b854044e}">None</Single>
+                <Single Name="PretendsToBeConnected" Type="bool">False</Single>
+                <Single Name="Id" Type="long">51</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Texts" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList">
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">EN</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">20</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Disable_Tag_Updates</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">22</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Reset_Statistics</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">24</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Disable_On_Network_Error</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">26</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">ENO</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">28</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Offline</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">30</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Client_State</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">32</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Configuration_Failure</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">34</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Servers_Attached_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">36</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Servers_Detached_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">38</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Sent_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">40</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Received_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">42</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Failure_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">44</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Message_Success_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">46</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Reconfigure_Topology_Count</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">48</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Buffer_Overflow</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">50</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">Server_Alias_Program_Error</Single>
+                <Single Name="Modifiable" Type="bool">True</Single>
+                <Single Name="Id" Type="long">52</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">ECAT_POU_TYPE</Single>
+                <Single Name="Modifiable" Type="bool">False</Single>
+                <Single Name="Id" Type="long">10</Single>
+              </Single>
+              <Single Type="{72f2b13f-5349-4a8a-bbe6-2bccf3f42179}" Method="IArchivable">
+                <Single Name="Bounds" Type="string">0, 0, 0, 0</Single>
+                <Null Name="ElementGroupId" />
+                <Single Name="Text" Type="string">ECAT_POU</Single>
+                <Single Name="Modifiable" Type="bool">False</Single>
+                <Single Name="Id" Type="long">11</Single>
+              </Single>
+            </List2>
+          </Single>
+          <Single Name="Parameters" Type="{cd57ba20-558b-4b98-96c1-73c6000c3087}" Method="IArchivable">
+            <List2 Name="InnerList" />
+          </Single>
+          <Null Name="PreparedParameters" />
+          <Single Name="PageArea" Type="int">0</Single>
+          <Single Name="Bounds" Type="string">3, 0, 0, 0</Single>
+          <Null Name="ElementGroupId" />
+          <Single Name="EnEno" Type="bool">False</Single>
+          <Single Name="KindOfCall" Type="{77f43dfe-ca6a-4869-828f-7609d8ed6ea6}">FunctionBlock</Single>
+          <Single Name="ContainsExtensibleInputs" Type="bool">False</Single>
+          <Single Name="Forced" Type="bool">False</Single>
+          <Single Name="IsFeedbackStart" Type="bool">False</Single>
+          <Single Name="OwningPageId" Type="long">-1</Single>
+          <Single Name="Id" Type="long">9</Single>
+        </Single>
+      </List2>
+    </Single>
+    <Null Name="ParameterInitializationMethodGenerator" />
+    <Single Name="RoutingPathTable" Type="{4b8bcc79-5980-4868-b49e-005a8148859b}" Method="IArchivable">
+      <Dictionary2 Name="InnerDictionary" />
+    </Single>
+    <Single Name="AutoSizeCanvas" Type="bool">True</Single>
+    <Single Name="CanvasWidth" Type="int">2</Single>
+    <Single Name="CanvasHeight" Type="int">2</Single>
+    <Single Name="EditorConfiguration" Type="{4f1e43e3-0667-4421-ad70-d7adf37c167a}" Method="IArchivable">
+      <Single Name="HideNamespaces" Type="bool">False</Single>
+    </Single>
+    <Single Name="AreElementsSpaceOptimized" Type="bool">False</Single>
+  </Single>
+  <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+    <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+      <Single Name="TextBlobForSerialisation" Type="string">PROGRAM EtherCAT_I_O_Network_Controller
+VAR
+END_VAR
+VAR_EXTERNAL
+{attribute 'symbol' := 'none'}
+	ECAT_POU:ECAT_POU_TYPE;
+END_VAR
+</Single>
+      <Single Name="LineInfoPersistence" Type="string">4f93144c-65b0-4d25-9444-54dcd869d0dd_Decl_LineIds</Single>
+    </Single>
+  </Single>
+  <Single Name="UniqueIdGenerator" Type="string">59</Single>
+  <Single Name="POULevel" Type="{8e575c5b-1d37-49c6-941b-5c0ec7874787}">Standard</Single>
+  <List Name="ChildObjectGuids" Type="System.Collections.ArrayList" />
+  <Single Name="AddAttributeSubsequent" Type="bool">False</Single>
+</Single>]]></ControllerPOU>
+  </EtherCATNetwork>
+</RTACModule>

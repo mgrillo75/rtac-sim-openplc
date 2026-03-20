@@ -1,0 +1,14 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/msys-uv-1.dll
+usr/share/
+usr/share/doc/
+usr/share/doc/libuv/
+usr/share/doc/libuv/AUTHORS
+usr/share/doc/libuv/ChangeLog
+usr/share/doc/libuv/README.md
+usr/share/licenses/
+usr/share/licenses/libuv/
+usr/share/licenses/libuv/LICENSE
+

@@ -1,0 +1,4575 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <Device>
+    <ExportSource>
+      <Schema>39</Schema>
+      <DeviceMOT>22412</DeviceMOT>
+    </ExportSource>
+    <Name>SEL2240_DI_1</Name>
+    <Manufacturer>SEL</Manufacturer>
+    <Model>2244xxxxxx_32DI</Model>
+    <Type>2244412100</Type>
+    <ProductCode>0x004352c4</ProductCode>
+    <Revision>0x00000000</Revision>
+    <Connection>
+      <Protocol>EtherCATClient</Protocol>
+      <ConnectionType>Ethernet</ConnectionType>
+      <SettingPages>
+        <SettingPage>
+          <Name>Properties</Name>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Vendor</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>Schweitzer Engineering Laboratories</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Description</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>2244412100, 32DI, 24 Vdc</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Product Code</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>0x004352c4</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Revision</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>0x00000000</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Settings</Name>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Enable SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Digital Inputs</Name>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.ESTOP</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_001</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_001</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>1</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.LOCAL</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>2</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_002</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>2</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_002</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>2</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.REMOTE</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>3</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_003</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>3</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_003</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>3</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.SE1_CC</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>4</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_004</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>4</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_004</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>4</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.SE1_OC</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_005</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_005</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>5</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_006</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>6</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_006</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>6</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_006</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>6</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_007</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>7</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_007</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>7</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_007</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>7</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_008</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>8</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_008</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>8</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_008</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>8</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_009</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>9</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_009</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>9</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_009</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>9</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_010</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_010</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_010</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_011</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>11</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_011</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>11</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_011</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>11</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_012</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>12</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_012</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>12</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_012</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>12</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_013</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>13</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_013</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>13</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_013</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>13</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_014</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>14</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_014</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>14</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_014</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>14</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_015</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>15</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_015</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>15</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_015</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>15</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_016</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>16</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_016</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>16</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_016</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>16</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_017</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>17</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_017</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>17</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_017</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>17</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_018</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>18</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_018</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>18</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_018</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>18</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_019</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>19</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_019</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>19</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_019</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>19</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_020</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>20</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_020</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>20</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_020</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>20</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_021</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>21</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_021</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>21</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_021</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>21</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_022</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>22</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_022</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>22</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_022</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>22</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_023</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>23</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_023</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>23</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_023</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>23</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_024</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>24</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_024</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>24</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_024</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>24</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_025</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>25</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_025</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>25</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_025</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>25</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_026</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>26</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_026</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>26</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_026</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>26</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_027</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>27</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_027</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>27</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_027</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>27</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_028</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>28</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_028</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>28</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_028</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>28</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_029</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>29</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_029</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>29</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_029</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>29</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_030</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>30</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_030</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>30</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_030</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>30</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_031</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>31</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_031</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>31</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_031</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>31</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>True</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_032</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Latest</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>32</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting>
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting>
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_SOE_032</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>SOE</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>32</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Enable</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.INPUT_EDGE_032</Value>
+            </Setting>
+            <Setting>
+              <Column>Input Type</Column>
+              <Value>Edge</Value>
+            </Setting>
+            <Setting>
+              <Column>Point Number</Column>
+              <Value>32</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Alias</Column>
+              <Value></Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Status Value</Column>
+              <Value>False</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Voltage Type</Column>
+              <Value>DC</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Pick Up Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Drop Out Delay</Column>
+              <Value>10</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Diagnostics</Name>
+          <Row>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.STATUS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>STR</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.ERROR</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>STR</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_DI_1_ECAT.FIRMWARE_VERSION</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>STR</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+      </SettingPages>
+    </Connection>
+  </Device>
+</RTACModule>

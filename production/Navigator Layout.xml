@@ -1,0 +1,67 @@
+<RTACModule>
+  <NavigatorLayout Name="NSA_LV_E-House_PPLA">
+    <Items>
+      <Item Name="Extensions" />
+      <Item Name="SEL_RTAC">
+        <Items>
+          <Item Name="Devices" IsFolder="true">
+            <Items>
+              <Item Name="SEL751_MODBUS" />
+              <Item Name="SEL2240_DO_1_ECAT" />
+              <Item Name="SEL2240_DI_1_ECAT" />
+              <Item Name="SEL2240_Coupler_1_ECAT" />
+              <Item Name="IFE1" IsFolder="true">
+                <Items>
+                  <Item Name="CB_101_01_400A_MODBUS" />
+                  <Item Name="CB_101_02_40A_MODBUS" />
+                  <Item Name="CB_101_03_400A_MODBUS" />
+                  <Item Name="CB_101_04_40A_MODBUS" />
+                  <Item Name="CB_101_05_400A_MODBUS" />
+                  <Item Name="CB_101_06_40A_MODBUS" />
+                  <Item Name="CB_101_07_400A_MODBUS" />
+                  <Item Name="CB_101_08_40A_MODBUS" />
+                  <Item Name="CB_101_09_400A_MODBUS" />
+                  <Item Name="CB_101_10_30A_MODBUS" />
+                  <Item Name="CB_101_11_40A_MODBUS" />
+                </Items>
+              </Item>
+              <Item Name="IFE2" IsFolder="true">
+                <Items>
+                  <Item Name="CB_102_01_600A_MODBUS" />
+                  <Item Name="CB_102_02_30A_MODBUS" />
+                  <Item Name="CB_102_03_200A_MODBUS" />
+                  <Item Name="CB_102_04_30A_MODBUS" />
+                  <Item Name="CB_102_05_200A_MODBUS" />
+                  <Item Name="CB_102_06_30A_MODBUS" />
+                  <Item Name="CB_102_07_100A_MODBUS" />
+                  <Item Name="CB_102_08_100A_MODBUS" />
+                  <Item Name="CB_102_09_60A_MODBUS" />
+                  <Item Name="CB_102_10_100A_MODBUS" />
+                </Items>
+              </Item>
+            </Items>
+          </Item>
+          <Item Name="Tag Processor" />
+          <Item Name="Tags" />
+          <Item Name="System" IsFolder="true">
+            <Items>
+              <Item Name="Main Controller" />
+              <Item Name="System_Time_Control" />
+              <Item Name="SystemTags" />
+              <Item Name="Contact I/O" />
+            </Items>
+          </Item>
+          <Item Name="EtherCAT I/O Network" />
+          <Item Name="Access Points" IsFolder="true" />
+          <Item Name="Access Point Routers" IsFolder="true" />
+          <Item Name="User Logic" IsFolder="true">
+            <Items>
+              <Item Name="PWRPACT_FAT_TEMP" />
+            </Items>
+          </Item>
+          <Item Name="Virtual Tag Lists" IsFolder="true" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigatorLayout>
+</RTACModule>

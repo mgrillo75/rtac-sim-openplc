@@ -1,0 +1,44 @@
+%NAME%
+python-cryptography
+
+%VERSION%
+46.0.5-1
+
+%BASE%
+python-cryptography
+
+%DESC%
+A package designed to expose cryptographic recipes and primitives to Python developers
+
+%URL%
+https://github.com/pyca/cryptography
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1771032248
+
+%INSTALLDATE%
+1772746198
+
+%PACKAGER%
+CI (msys2/msys2-autobuild/ad23bc5d/22008455116)
+
+%SIZE%
+6290451
+
+%LICENSE%
+spdx:Apache-2.0 OR BSD-3-Clause
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libopenssl
+python
+python-cffi
+
+%XDATA%
+pkgtype=pkg
+

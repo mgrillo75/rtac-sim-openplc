@@ -1,0 +1,16 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/dbhash.exe
+usr/bin/rbu.exe
+usr/bin/sqldiff.exe
+usr/bin/sqlite3.exe
+usr/bin/sqlite3_analyzer.exe
+usr/share/
+usr/share/licenses/
+usr/share/licenses/sqlite/
+usr/share/licenses/sqlite/LICENSE
+usr/share/man/
+usr/share/man/man1/
+usr/share/man/man1/sqlite3.1.gz
+

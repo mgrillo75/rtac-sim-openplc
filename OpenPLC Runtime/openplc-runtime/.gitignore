@@ -1,0 +1,36 @@
+# Ignore all files in the build output directory
+/build*/
+/core/generated/
+/memory-bank
+
+# Runtime-mutable plugin config (plugins_default.conf is the tracked canonical default)
+plugins.conf
+
+# Per-plugin JSON configs are program-specific (populated on program upload)
+core/src/drivers/plugins/python/modbus_slave/modbus_slave_config.json
+core/src/drivers/plugins/python/modbus_master/modbus_master.json
+core/src/drivers/plugins/python/opcua/opcua.json
+core/src/drivers/plugins/native/s7comm/s7comm_config.json
+
+.vscode/
+#.*/
+/venvs/
+.venv/
+__pycache__/
+.clinerules
+
+# Temporary files
+*.txt
+*.log
+*.env
+*.pem
+*.db
+*.socket
+*.installed
+*.egg-info
+*.pytest_cache/
+
+# Ignore all object files and shared libraries
+*.o
+*.so
+.DS_Store

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/d/a/openplc-runtime/openplc-runtime/core/src/drivers/plugins/native/s7comm/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

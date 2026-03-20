@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTACModule>
+  <Device>
+    <ExportSource>
+      <Schema>39</Schema>
+      <DeviceMOT>22412</DeviceMOT>
+    </ExportSource>
+    <Name>SEL2240_Coupler_1</Name>
+    <Manufacturer>SEL</Manufacturer>
+    <Model>2243xxxx_PowerCoupler</Model>
+    <Type>22432100</Type>
+    <ProductCode>0x00007d64</ProductCode>
+    <Revision>0x00000001</Revision>
+    <Connection>
+      <Protocol>EtherCATClient</Protocol>
+      <ConnectionType>Ethernet</ConnectionType>
+      <SettingPages>
+        <SettingPage>
+          <Name>Properties</Name>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Vendor</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>Schweitzer Engineering Laboratories</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Description</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>22432100, Coupler, RJ45 Cu, Power 24/48 Vdc</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Product Code</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>0x00007d64</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+          <Row>
+            <Setting enabled="false">
+              <Column>Setting</Column>
+              <Value>Revision</Value>
+            </Setting>
+            <Setting enabled="false">
+              <Column>Value</Column>
+              <Value>0x00000001</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value />
+            </Setting>
+          </Row>
+        </SettingPage>
+        <SettingPage>
+          <Name>Diagnostics</Name>
+          <Row>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_Coupler_1_ECAT.HW_STATUS_001</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>SPS</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_Coupler_1_ECAT.STATUS</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>STR</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_Coupler_1_ECAT.ERROR</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>STR</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+          <Row>
+            <Setting>
+              <Column>Tag Name</Column>
+              <Value>SEL2240_Coupler_1_ECAT.FIRMWARE_VERSION</Value>
+            </Setting>
+            <Setting>
+              <Column>Tag Type</Column>
+              <Value>STR</Value>
+            </Setting>
+            <Setting>
+              <Column>Comment</Column>
+              <Value></Value>
+            </Setting>
+          </Row>
+        </SettingPage>
+      </SettingPages>
+    </Connection>
+  </Device>
+</RTACModule>

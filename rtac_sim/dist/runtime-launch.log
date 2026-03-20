@@ -1,0 +1,1267 @@
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 20:34:50] [INFO] psutil not available - process detection features disabled
+[2026-03-20 20:34:50] [INFO] Starting PLC runtime core...
+[2026-03-20 20:34:50] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 20:34:51] [INFO] Client connected
+[2026-03-20 20:34:51] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 20:34:51] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 20:34:51] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 20:34:51] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 20:34:51] [INFO]   - init: (PASS)
+[2026-03-20 20:34:51] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:34:51] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:34:51] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:34:51] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 20:34:51] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 20:34:51] [INFO]   - init: (PASS)
+[2026-03-20 20:34:51] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:34:51] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:34:51] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:34:51] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 20:34:52] [INFO] Unix socket client connected
+[2026-03-20 20:34:52] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 20:34:52] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 20:34:52] [INFO] Generating https certificate...
+[2026-03-20 20:34:52] [INFO] Generating self-signed certificate for localhost...
+[2026-03-20 20:34:52] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:34:52] [INFO]   - init: (PASS)
+[2026-03-20 20:34:52] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:34:52] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:34:52] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:34:52] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:34:52] [INFO]   - init: (PASS)
+[2026-03-20 20:34:52] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:34:52] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:34:52] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:34:52] [INFO] Native plugin './build/plugins/libs7comm_plugin.so' symbols loaded successfully
+[2026-03-20 20:34:52] [INFO]   - init: (PASS)
+[2026-03-20 20:34:52] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:34:52] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:34:52] [INFO]   - cycle_start: (PASS)
+[2026-03-20 20:34:52] [INFO]   - cycle_end: (PASS)
+[2026-03-20 20:34:52] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:34:52] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:34:52] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:34:52] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:34:52] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:34:52] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:34:52] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:34:52] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:34:52] [INFO] [PLUGIN]: All plugins initialized (not started)
+[2026-03-20 20:34:52] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 20:34:52] [ERROR] No libplc_*.so file found in ./build
+[2026-03-20 20:34:52] [ERROR] Failed to find libplc file
+[2026-03-20 20:34:52] [ERROR] Failed to set PLC state to RUNNING
+[2026-03-20 20:34:52] [INFO] Certificate saved to /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime/webserver/certOPENPLC.pem
+[2026-03-20 20:34:52] [INFO] Private key saved to /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime/webserver/keyOPENPLC.pem
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.45:8443
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Mar/2026 15:34:53] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:34:53] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:34:53] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+127.0.0.1 - - [20/Mar/2026 15:35:14] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:23] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:23] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:24] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 20:37:34] [INFO] psutil not available - process detection features disabled
+[2026-03-20 20:37:35] [INFO] .env file not found, creating one...
+[2026-03-20 20:37:35] [INFO] .env file created at /run/runtime/.env
+[2026-03-20 20:37:35] [INFO] Starting PLC runtime core...
+[2026-03-20 20:37:35] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 20:37:35] [INFO] Client connected
+[2026-03-20 20:37:35] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 20:37:35] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 20:37:35] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 20:37:35] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 20:37:35] [INFO]   - init: (PASS)
+[2026-03-20 20:37:35] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:37:35] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:37:35] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:37:35] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 20:37:35] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 20:37:35] [INFO]   - init: (PASS)
+[2026-03-20 20:37:35] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:37:35] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:37:35] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:37:35] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 20:37:36] [INFO] Unix socket client connected
+[2026-03-20 20:37:36] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 20:37:36] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 20:37:36] [WARNING] Credentials already generated!
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.45:8443
+[33mPress CTRL+C to quit[0m
+[2026-03-20 20:37:36] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:37:36] [INFO]   - init: (PASS)
+[2026-03-20 20:37:36] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:37:36] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:37:36] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:37:36] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:37:36] [INFO]   - init: (PASS)
+[2026-03-20 20:37:36] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:37:36] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:37:36] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:37:36] [INFO] Native plugin './build/plugins/libs7comm_plugin.so' symbols loaded successfully
+[2026-03-20 20:37:36] [INFO]   - init: (PASS)
+[2026-03-20 20:37:36] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:37:36] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:37:36] [INFO]   - cycle_start: (PASS)
+[2026-03-20 20:37:36] [INFO]   - cycle_end: (PASS)
+[2026-03-20 20:37:36] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:37:36] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:37:36] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:37:36] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:37:36] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:37:36] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:37:36] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:37:36] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:37:36] [INFO] [PLUGIN]: All plugins initialized (not started)
+[2026-03-20 20:37:36] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 20:37:36] [ERROR] No libplc_*.so file found in ./build
+[2026-03-20 20:37:36] [ERROR] Failed to find libplc file
+[2026-03-20 20:37:36] [ERROR] Failed to set PLC state to RUNNING
+127.0.0.1 - - [20/Mar/2026 15:37:37] "[33mGET /api/get-users-info HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Mar/2026 15:37:37] "[33mGET /api/get-users-info HTTP/1.1[0m" 404 -
+127.0.0.1 - - [20/Mar/2026 15:37:37] "[35m[1mPOST /api/create-user HTTP/1.1[0m" 201 -
+127.0.0.1 - - [20/Mar/2026 15:37:37] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:37] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:37] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:38] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:39] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:37:40] [INFO] Loading PLC application
+[2026-03-20 20:37:40] [INFO] PLC State: INIT
+[2026-03-20 20:37:40] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:37:40] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:37:40] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:37:40] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:37:40] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:37:40] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:37:40] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:37:40] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:37:40] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:37:40] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:37:40] [INFO] Memory locking not available on this platform
+[2026-03-20 20:37:40] [ERROR] dlsym error: No such process
+[2026-03-20 20:37:40] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:37:40] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:37:40] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:37:40] [INFO] Journal buffer initialized
+[2026-03-20 20:37:40] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:37:40] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:37:40] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:37:40] [INFO] Starting OPC UA server...
+[2026-03-20 20:37:40] [ERROR] Configuration validation error: Failed to parse plugin configuration #1: string indices must be integers, not 'str'
+[2026-03-20 20:37:40] [ERROR] Failed to load configuration
+[2026-03-20 20:37:40] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:37:40] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:37:40] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:37:40] [INFO] Starting main loop
+[2026-03-20 20:37:40] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:37:40] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:37:40] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:40:26] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:40:26] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:40:26] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:40:26] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:40:26] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:40:27] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:40:28] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:40:29] [INFO] Journal buffer cleaned up
+[2026-03-20 20:40:29] [INFO] Stopping all plugins...
+[2026-03-20 20:40:29] [INFO] Stopping plugin 4/5: rtac_bridge
+[2026-03-20 20:40:29] [INFO] Stopping OPC UA server...
+[2026-03-20 20:40:29] [INFO] OPC UA server stopped
+[2026-03-20 20:40:29] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 20:40:29] [INFO] Cleared all pointers in image tables
+[2026-03-20 20:40:29] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+127.0.0.1 - - [20/Mar/2026 15:40:29] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:40:29] [INFO] [Python loader] Cleanup complete
+[2026-03-20 20:40:29] [INFO] PLC program unloaded successfully
+[2026-03-20 20:40:29] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 15:40:29] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 20:40:30] [INFO] Loading PLC application
+[2026-03-20 20:40:30] [INFO] PLC State: INIT
+[2026-03-20 20:40:30] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:40:30] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:40:30] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:40:30] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:40:30] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:40:30] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:40:30] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:40:30] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:40:30] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:40:30] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:40:30] [INFO] Memory locking not available on this platform
+[2026-03-20 20:40:30] [ERROR] dlsym error: No such process
+[2026-03-20 20:40:30] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:40:30] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:40:30] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:40:30] [INFO] Journal buffer initialized
+[2026-03-20 20:40:30] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:40:30] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:40:30] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:40:30] [INFO] Starting OPC UA server...
+[2026-03-20 20:40:30] [ERROR] Configuration validation error: Failed to parse plugin configuration #1: string indices must be integers, not 'str'
+[2026-03-20 20:40:30] [ERROR] Failed to load configuration
+[2026-03-20 20:40:30] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:40:30] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:40:30] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:40:30] [INFO] Starting main loop
+[2026-03-20 20:40:30] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:40:37] "[31m[1mGET /api/status HTTP/1.1[0m" 401 -
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 20:41:21] [INFO] psutil not available - process detection features disabled
+[2026-03-20 20:41:21] [INFO] Starting PLC runtime core...
+[2026-03-20 20:41:21] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 20:41:21] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 20:41:21] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 20:41:21] [INFO] Client connected
+[2026-03-20 20:41:21] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 20:41:22] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 20:41:22] [INFO]   - init: (PASS)
+[2026-03-20 20:41:22] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:41:22] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:41:22] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:41:22] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 20:41:22] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 20:41:22] [INFO]   - init: (PASS)
+[2026-03-20 20:41:22] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:41:22] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:41:22] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:41:22] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 20:41:22] [INFO] Unix socket client connected
+[2026-03-20 20:41:23] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 20:41:23] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 20:41:23] [WARNING] Credentials already generated!
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[2026-03-20 20:41:23] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:41:23] [INFO]   - init: (PASS)
+[2026-03-20 20:41:23] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:41:23] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:41:23] [INFO]   - cleanup: (PASS)
+Traceback (most recent call last):
+  File "/c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime/core/src/drivers/plugins/python/rtac_bridge/rtac_bridge_plugin.py", line 19, in <module>
+[2026-03-20 20:41:23] [ERROR] Failed to load Python module 'rtac_bridge_plugin' from path './core/src/drivers/plugins/python/rtac_bridge/rtac_bridge_plugin.py'
+    from .config import load_config
+ImportError: attempted relative import with no known parent package
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime/core/src/drivers/plugins/python/rtac_bridge/rtac_bridge_plugin.py", line 24, in <module>
+    from parser import load_project_spec
+  File "/c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime/core/src/drivers/plugins/python/rtac_bridge/parser.py", line 9, in <module>
+    from .model import INPUT_TAG_PATHS, OUTPUT_FIELDS, RtacProjectSpec
+ImportError: attempted relative import with no known parent package
+[2026-03-20 20:41:23] [ERROR] Failed to get Python plugin symbols for: ./core/src/drivers/plugins/python/rtac_bridge/rtac_bridge_plugin.py
+[2026-03-20 20:41:23] [ERROR] [PLUGIN]: Failed to load plugin configuration
+[2026-03-20 20:41:23] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 20:41:23] [INFO] Loading PLC application
+[2026-03-20 20:41:23] [INFO] PLC State: INIT
+[2026-03-20 20:41:23] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:41:23] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:41:23] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:41:23] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:41:23] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:41:23] [INFO] Memory locking not available on this platform
+[2026-03-20 20:41:23] [ERROR] dlsym error: No such process
+[2026-03-20 20:41:23] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:41:23] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:41:23] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:41:23] [INFO] Journal buffer initialized
+[2026-03-20 20:41:23] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:41:23] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:41:23] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:41:23] [WARNING] Python plugin rtac_bridge does not have a start_loop function
+[2026-03-20 20:41:23] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:41:23] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:41:23] [INFO] Starting main loop
+[2026-03-20 20:41:23] [INFO] PLC State: RUNNING
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.45:8443
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Mar/2026 15:41:23] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:23] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:24] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:24] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:24] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:25] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:26] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:41:27] [INFO] Journal buffer cleaned up
+[2026-03-20 20:41:27] [INFO] Stopping all plugins...
+[2026-03-20 20:41:27] [INFO] Cleared all pointers in image tables
+[2026-03-20 20:41:27] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 20:41:27] [INFO] [Python loader] Cleanup complete
+[2026-03-20 20:41:27] [INFO] PLC program unloaded successfully
+[2026-03-20 20:41:27] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 15:41:27] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:27] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 20:41:27] [INFO] Loading PLC application
+[2026-03-20 20:41:27] [INFO] PLC State: INIT
+[2026-03-20 20:41:27] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:41:27] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:41:27] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:41:27] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:41:27] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:41:27] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:41:27] [INFO] Memory locking not available on this platform
+[2026-03-20 20:41:27] [ERROR] dlsym error: No such process
+[2026-03-20 20:41:27] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:41:27] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:41:27] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:41:27] [INFO] Journal buffer initialized
+[2026-03-20 20:41:27] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:41:27] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:41:27] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:41:27] [WARNING] Python plugin rtac_bridge does not have a start_loop function
+[2026-03-20 20:41:27] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:41:27] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:41:27] [INFO] Starting main loop
+[2026-03-20 20:41:27] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:41:36] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:36] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:37] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:38] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:39] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:40] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:41] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:42] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:43] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:44] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:41:45] "GET /api/status HTTP/1.1" 200 -
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 20:43:06] [INFO] psutil not available - process detection features disabled
+[2026-03-20 20:43:07] [INFO] Starting PLC runtime core...
+[2026-03-20 20:43:07] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 20:43:07] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 20:43:07] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 20:43:07] [INFO] Client connected
+[2026-03-20 20:43:07] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 20:43:07] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 20:43:07] [INFO]   - init: (PASS)
+[2026-03-20 20:43:07] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:43:07] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:43:07] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:43:07] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 20:43:07] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 20:43:07] [INFO]   - init: (PASS)
+[2026-03-20 20:43:07] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:43:07] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:43:07] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:43:07] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 20:43:08] [INFO] Unix socket client connected
+[2026-03-20 20:43:08] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 20:43:08] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 20:43:08] [WARNING] Credentials already generated!
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.45:8443
+[33mPress CTRL+C to quit[0m
+[2026-03-20 20:43:08] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:43:08] [INFO]   - init: (PASS)
+[2026-03-20 20:43:08] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:43:08] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:43:08] [INFO]   - cleanup: (PASS)
+127.0.0.1 - - [20/Mar/2026 15:43:08] "GET /api/get-users-info HTTP/1.1" 200 -
+[2026-03-20 20:43:08] [INFO] Python plugin 'rtac_bridge_plugin' symbols loaded successfully
+[2026-03-20 20:43:08] [INFO]   - init: (PASS)
+[2026-03-20 20:43:08] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:43:08] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:43:08] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:43:08] [INFO] Native plugin './build/plugins/libs7comm_plugin.so' symbols loaded successfully
+[2026-03-20 20:43:08] [INFO]   - init: (PASS)
+[2026-03-20 20:43:08] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:43:08] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:43:08] [INFO]   - cycle_start: (PASS)
+[2026-03-20 20:43:08] [INFO]   - cycle_end: (PASS)
+[2026-03-20 20:43:08] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:43:08] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:43:08] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:43:08] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:43:08] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:43:08] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:43:08] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:43:08] [INFO] [PLUGIN]: All plugins initialized (not started)
+[2026-03-20 20:43:08] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 20:43:08] [INFO] Loading PLC application
+[2026-03-20 20:43:08] [INFO] PLC State: INIT
+[2026-03-20 20:43:08] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:43:08] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:43:08] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:43:08] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:43:08] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:43:08] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:43:08] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:43:08] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:43:08] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:43:08] [INFO] Memory locking not available on this platform
+[2026-03-20 20:43:08] [ERROR] dlsym error: No such process
+[2026-03-20 20:43:08] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:43:08] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:43:08] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:43:08] [INFO] Journal buffer initialized
+[2026-03-20 20:43:08] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:43:08] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:43:08] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:43:08] [ERROR] Configuration validation error: Failed to parse plugin configuration #1: string indices must be integers, not 'str'
+[2026-03-20 20:43:08] [ERROR] [RTAC_BRIDGE] Failed to start RTAC bridge: 'NoneType' object has no attribute 'project_path'
+[2026-03-20 20:43:08] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:43:08] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:43:08] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:43:08] [INFO] Starting main loop
+[2026-03-20 20:43:08] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:43:08] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:08] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:08] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:08] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:09] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:10] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:43:11] [INFO] Journal buffer cleaned up
+[2026-03-20 20:43:11] [INFO] Stopping all plugins...
+[2026-03-20 20:43:11] [INFO] Stopping plugin 4/5: rtac_bridge
+[2026-03-20 20:43:11] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 20:43:11] [INFO] Cleared all pointers in image tables
+[2026-03-20 20:43:11] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 20:43:11] [INFO] [Python loader] Cleanup complete
+[2026-03-20 20:43:11] [INFO] PLC program unloaded successfully
+[2026-03-20 20:43:11] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 15:43:11] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:11] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 20:43:12] [INFO] Loading PLC application
+[2026-03-20 20:43:12] [INFO] PLC State: INIT
+[2026-03-20 20:43:12] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:43:12] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:43:12] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:43:12] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:43:12] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:43:12] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:43:12] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:43:12] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:43:12] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:43:12] [INFO] Memory locking not available on this platform
+[2026-03-20 20:43:12] [ERROR] dlsym error: No such process
+[2026-03-20 20:43:12] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:43:12] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:43:12] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:43:12] [INFO] Journal buffer initialized
+[2026-03-20 20:43:12] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:43:12] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:43:12] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:43:12] [ERROR] Configuration validation error: Failed to parse plugin configuration #1: string indices must be integers, not 'str'
+[2026-03-20 20:43:12] [ERROR] [RTAC_BRIDGE] Failed to start RTAC bridge: 'NoneType' object has no attribute 'project_path'
+[2026-03-20 20:43:12] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:43:12] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:43:12] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:43:12] [INFO] Starting main loop
+[2026-03-20 20:43:12] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:43:21] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:21] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:22] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:23] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:24] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:43:25] "GET /api/status HTTP/1.1" 200 -
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 20:50:30] [INFO] psutil not available - process detection features disabled
+[2026-03-20 20:50:30] [INFO] Starting PLC runtime core...
+[2026-03-20 20:50:30] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 20:50:30] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 20:50:30] [INFO] Client connected
+[2026-03-20 20:50:30] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 20:50:30] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 20:50:31] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 20:50:31] [INFO]   - init: (PASS)
+[2026-03-20 20:50:31] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:50:31] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 20:50:31] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 20:50:31] [INFO]   - init: (PASS)
+[2026-03-20 20:50:31] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:50:31] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 20:50:31] [INFO] Unix socket client connected
+[2026-03-20 20:50:31] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 20:50:31] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 20:50:31] [WARNING] Credentials already generated!
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.45:8443
+[33mPress CTRL+C to quit[0m
+[2026-03-20 20:50:31] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:50:31] [INFO]   - init: (PASS)
+[2026-03-20 20:50:31] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:50:31] [INFO] Python plugin 'rtac_bridge_plugin' symbols loaded successfully
+[2026-03-20 20:50:31] [INFO]   - init: (PASS)
+[2026-03-20 20:50:31] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:50:31] [INFO] Native plugin './build/plugins/libs7comm_plugin.so' symbols loaded successfully
+[2026-03-20 20:50:31] [INFO]   - init: (PASS)
+[2026-03-20 20:50:31] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:50:31] [INFO]   - cycle_start: (PASS)
+[2026-03-20 20:50:31] [INFO]   - cycle_end: (PASS)
+[2026-03-20 20:50:31] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:50:31] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:50:31] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:50:31] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:50:31] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:50:31] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:50:31] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:50:31] [INFO] [PLUGIN]: All plugins initialized (not started)
+[2026-03-20 20:50:31] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 20:50:31] [INFO] Loading PLC application
+[2026-03-20 20:50:31] [INFO] PLC State: INIT
+[2026-03-20 20:50:31] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:50:31] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:50:31] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:50:31] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:50:31] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:50:31] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:50:31] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:50:31] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:50:31] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:50:31] [INFO] Memory locking not available on this platform
+[2026-03-20 20:50:31] [ERROR] dlsym error: No such process
+[2026-03-20 20:50:31] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:50:31] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:50:31] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:50:31] [INFO] Journal buffer initialized
+[2026-03-20 20:50:31] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:50:31] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:50:31] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:50:31] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 20:50:31] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 20:50:31] [INFO] {"timestamp":"1774039831","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 20:50:31] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:50:31] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:50:31] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:50:31] [INFO] Starting main loop
+[2026-03-20 20:50:31] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:50:32] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:32] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:32] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:32] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:32] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:33] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:34] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:50:35] [INFO] Journal buffer cleaned up
+[2026-03-20 20:50:35] [INFO] Stopping all plugins...
+[2026-03-20 20:50:35] [INFO] Stopping plugin 4/5: rtac_bridge
+[2026-03-20 20:50:35] [WARNING] Timeout waiting for message
+127.0.0.1 - - [20/Mar/2026 15:50:36] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:50:36] [INFO] [RTAC_BRIDGE] RTAC bridge stopped
+[2026-03-20 20:50:36] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 20:50:36] [INFO] Cleared all pointers in image tables
+[2026-03-20 20:50:36] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 20:50:36] [INFO] [Python loader] Cleanup complete
+[2026-03-20 20:50:36] [INFO] PLC program unloaded successfully
+[2026-03-20 20:50:36] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 15:50:36] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 20:50:36] [INFO] Loading PLC application
+[2026-03-20 20:50:36] [INFO] PLC State: INIT
+[2026-03-20 20:50:36] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:50:36] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:50:36] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:50:36] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:50:36] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:50:36] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:50:36] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:50:36] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:50:36] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:50:36] [INFO] Memory locking not available on this platform
+[2026-03-20 20:50:36] [ERROR] dlsym error: No such process
+[2026-03-20 20:50:36] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:50:36] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:50:36] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:50:36] [INFO] Journal buffer initialized
+[2026-03-20 20:50:36] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:50:36] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:50:36] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:50:36] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 20:50:36] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 20:50:36] [INFO] {"timestamp":"1774039836","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 20:50:36] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:50:36] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:50:36] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:50:36] [INFO] Starting main loop
+[2026-03-20 20:50:36] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:50:46] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:46] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:47] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:48] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:49] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:50] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:51] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:52] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:50:53] "GET /api/status HTTP/1.1" 200 -
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 20:52:26] [INFO] psutil not available - process detection features disabled
+[2026-03-20 20:52:26] [INFO] Starting PLC runtime core...
+[2026-03-20 20:52:26] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 20:52:26] [INFO] Client connected
+[2026-03-20 20:52:26] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 20:52:26] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 20:52:26] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 20:52:27] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 20:52:27] [INFO]   - init: (PASS)
+[2026-03-20 20:52:27] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:52:27] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:52:27] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:52:27] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 20:52:27] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 20:52:27] [INFO]   - init: (PASS)
+[2026-03-20 20:52:27] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:52:27] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:52:27] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:52:27] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 20:52:27] [INFO] Unix socket client connected
+[2026-03-20 20:52:27] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 20:52:27] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 20:52:27] [WARNING] Credentials already generated!
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.45:8443
+[33mPress CTRL+C to quit[0m
+[2026-03-20 20:52:28] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 20:52:28] [INFO]   - init: (PASS)
+[2026-03-20 20:52:28] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:52:28] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:52:28] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:52:28] [INFO] Python plugin 'rtac_bridge_plugin' symbols loaded successfully
+[2026-03-20 20:52:28] [INFO]   - init: (PASS)
+[2026-03-20 20:52:28] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:52:28] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:52:28] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:52:28] [INFO] Native plugin './build/plugins/libs7comm_plugin.so' symbols loaded successfully
+[2026-03-20 20:52:28] [INFO]   - init: (PASS)
+[2026-03-20 20:52:28] [INFO]   - start_loop: (PASS)
+[2026-03-20 20:52:28] [INFO]   - stop_loop: (PASS)
+[2026-03-20 20:52:28] [INFO]   - cycle_start: (PASS)
+[2026-03-20 20:52:28] [INFO]   - cycle_end: (PASS)
+[2026-03-20 20:52:28] [INFO]   - cleanup: (PASS)
+[2026-03-20 20:52:28] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:52:28] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:52:28] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:52:28] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:52:28] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:52:28] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:52:28] [INFO] [PLUGIN]: All plugins initialized (not started)
+[2026-03-20 20:52:28] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 20:52:28] [INFO] Loading PLC application
+[2026-03-20 20:52:28] [INFO] PLC State: INIT
+[2026-03-20 20:52:28] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:52:28] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:52:28] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:52:28] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:52:28] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:52:28] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:52:28] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:52:28] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:52:28] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:52:28] [INFO] Memory locking not available on this platform
+[2026-03-20 20:52:28] [ERROR] dlsym error: No such process
+[2026-03-20 20:52:28] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:52:28] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:52:28] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:52:28] [INFO] Journal buffer initialized
+[2026-03-20 20:52:28] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:52:28] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:52:28] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:52:28] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 20:52:28] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 20:52:28] [INFO] {"timestamp":"1774039948","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 20:52:28] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:52:28] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:52:28] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:52:28] [INFO] Starting main loop
+[2026-03-20 20:52:28] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:52:28] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:52:28] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:52:28] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:52:28] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:52:28] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:52:29] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 15:52:30] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:52:31] [INFO] Journal buffer cleaned up
+[2026-03-20 20:52:31] [INFO] Stopping all plugins...
+[2026-03-20 20:52:31] [INFO] Stopping plugin 4/5: rtac_bridge
+127.0.0.1 - - [20/Mar/2026 15:52:31] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 20:52:32] [WARNING] Timeout waiting for message
+[2026-03-20 20:52:32] [INFO] [RTAC_BRIDGE] RTAC bridge stopped
+[2026-03-20 20:52:32] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 20:52:32] [INFO] Cleared all pointers in image tables
+[2026-03-20 20:52:32] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 20:52:32] [INFO] [Python loader] Cleanup complete
+[2026-03-20 20:52:32] [INFO] PLC program unloaded successfully
+[2026-03-20 20:52:32] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 15:52:32] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 20:52:32] [INFO] Loading PLC application
+[2026-03-20 20:52:32] [INFO] PLC State: INIT
+[2026-03-20 20:52:32] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 20:52:32] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 20:52:32] [INFO] OPC UA Plugin initializing...
+[2026-03-20 20:52:32] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 20:52:32] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 20:52:32] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 20:52:32] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 20:52:32] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 20:52:32] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 20:52:32] [INFO] Memory locking not available on this platform
+[2026-03-20 20:52:32] [ERROR] dlsym error: No such process
+[2026-03-20 20:52:32] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 20:52:32] [INFO] Python loader logging callbacks initialized
+[2026-03-20 20:52:32] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 20:52:32] [INFO] Journal buffer initialized
+[2026-03-20 20:52:32] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 20:52:32] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 20:52:32] [INFO] Skipping disabled plugin during start: opcua
+[2026-03-20 20:52:32] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 20:52:32] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 20:52:32] [INFO] {"timestamp":"1774039952","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 20:52:32] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 20:52:32] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 20:52:32] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 20:52:32] [INFO] Starting main loop
+[2026-03-20 20:52:32] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 15:52:33] "GET /api/status HTTP/1.1" 200 -
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 21:32:55] [INFO] psutil not available - process detection features disabled
+[2026-03-20 21:32:56] [INFO] Starting PLC runtime core...
+[2026-03-20 21:32:56] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 21:32:56] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 21:32:56] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 21:32:56] [INFO] Client connected
+[2026-03-20 21:32:56] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 21:32:57] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 21:32:57] [INFO]   - init: (PASS)
+[2026-03-20 21:32:57] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:32:57] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:32:57] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:32:57] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 21:32:57] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 21:32:57] [INFO]   - init: (PASS)
+[2026-03-20 21:32:57] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:32:57] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:32:57] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:32:57] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 21:32:57] [INFO] Unix socket client connected
+[2026-03-20 21:32:57] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 21:32:57] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 21:32:57] [WARNING] Credentials already generated!
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.44:8443
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Mar/2026 16:32:58] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:32:58] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:32:58] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:32:58] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:32:58] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:32:59] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 21:32:59] [INFO]   - init: (PASS)
+[2026-03-20 21:32:59] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:32:59] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:32:59] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:32:59] [INFO] Python plugin 'rtac_bridge_plugin' symbols loaded successfully
+[2026-03-20 21:32:59] [INFO]   - init: (PASS)
+[2026-03-20 21:32:59] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:32:59] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:32:59] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:32:59] [INFO] Native plugin './build/plugins/libs7comm_plugin.so' symbols loaded successfully
+[2026-03-20 21:32:59] [INFO]   - init: (PASS)
+[2026-03-20 21:32:59] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:32:59] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:32:59] [INFO]   - cycle_start: (PASS)
+[2026-03-20 21:32:59] [INFO]   - cycle_end: (PASS)
+[2026-03-20 21:32:59] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:32:59] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:32:59] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:32:59] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:32:59] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:32:59] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:32:59] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:32:59] [INFO] [PLUGIN]: All plugins initialized (not started)
+[2026-03-20 21:32:59] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 21:32:59] [INFO] Loading PLC application
+[2026-03-20 21:32:59] [INFO] PLC State: INIT
+[2026-03-20 21:32:59] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:32:59] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:32:59] [INFO] OPC UA Plugin initializing...
+[2026-03-20 21:32:59] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:32:59] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:32:59] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:32:59] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:32:59] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 21:32:59] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 21:32:59] [INFO] Memory locking not available on this platform
+[2026-03-20 21:32:59] [ERROR] dlsym error: No such process
+[2026-03-20 21:32:59] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 21:32:59] [INFO] Python loader logging callbacks initialized
+[2026-03-20 21:32:59] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 21:32:59] [INFO] Journal buffer initialized
+[2026-03-20 21:32:59] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 21:32:59] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 21:32:59] [INFO] Skipping disabled plugin during start: opcua
+127.0.0.1 - - [20/Mar/2026 16:32:59] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:33:00] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 21:33:00] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 21:33:00] [INFO] {"timestamp":"1774042380","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 21:33:00] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 21:33:00] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 21:33:00] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 21:33:00] [INFO] Starting main loop
+[2026-03-20 21:33:00] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 16:33:00] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:33:01] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:33:02] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:33:03] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:33:04] [INFO] Journal buffer cleaned up
+[2026-03-20 21:33:04] [INFO] Stopping all plugins...
+[2026-03-20 21:33:04] [INFO] Stopping plugin 4/5: rtac_bridge
+[2026-03-20 21:33:04] [WARNING] Timeout waiting for message
+[2026-03-20 21:33:04] [INFO] [RTAC_BRIDGE] RTAC bridge stopped
+[2026-03-20 21:33:04] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 21:33:04] [INFO] Cleared all pointers in image tables
+[2026-03-20 21:33:04] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 21:33:04] [INFO] [Python loader] Cleanup complete
+[2026-03-20 21:33:04] [INFO] PLC program unloaded successfully
+[2026-03-20 21:33:04] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 16:33:05] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:33:05] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:33:05] [INFO] Loading PLC application
+[2026-03-20 21:33:05] [INFO] PLC State: INIT
+[2026-03-20 21:33:05] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:33:05] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:33:05] [INFO] OPC UA Plugin initializing...
+[2026-03-20 21:33:05] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:33:05] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:33:05] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:33:05] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:33:05] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 21:33:05] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 21:33:05] [INFO] Memory locking not available on this platform
+[2026-03-20 21:33:05] [ERROR] dlsym error: No such process
+[2026-03-20 21:33:05] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 21:33:05] [INFO] Python loader logging callbacks initialized
+[2026-03-20 21:33:05] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 21:33:05] [INFO] Journal buffer initialized
+[2026-03-20 21:33:05] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 21:33:05] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 21:33:05] [INFO] Skipping disabled plugin during start: opcua
+127.0.0.1 - - [20/Mar/2026 16:33:06] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:33:07] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:33:07] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 21:33:07] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 21:33:07] [INFO] {"timestamp":"1774042387","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 21:33:07] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 21:33:07] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 21:33:07] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 21:33:07] [INFO] Starting main loop
+[2026-03-20 21:33:07] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 16:33:08] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:16] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:16] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:17] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:17] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:17] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:18] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:19] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:20] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:21] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:22] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:23] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:44:24] [INFO] Journal buffer cleaned up
+[2026-03-20 21:44:24] [INFO] Stopping all plugins...
+[2026-03-20 21:44:24] [INFO] Stopping plugin 4/5: rtac_bridge
+[2026-03-20 21:44:24] [WARNING] Timeout waiting for message
+[2026-03-20 21:44:24] [INFO] [RTAC_BRIDGE] RTAC bridge stopped
+[2026-03-20 21:44:24] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 21:44:24] [INFO] Cleared all pointers in image tables
+[2026-03-20 21:44:24] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 21:44:24] [INFO] [Python loader] Cleanup complete
+[2026-03-20 21:44:24] [INFO] PLC program unloaded successfully
+[2026-03-20 21:44:24] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 16:44:24] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:24] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:44:25] [INFO] Loading PLC application
+[2026-03-20 21:44:25] [INFO] PLC State: INIT
+[2026-03-20 21:44:25] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:44:25] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:44:25] [INFO] OPC UA Plugin initializing...
+[2026-03-20 21:44:25] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:44:25] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:44:25] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:44:25] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:44:25] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 21:44:25] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 21:44:25] [INFO] Memory locking not available on this platform
+[2026-03-20 21:44:25] [ERROR] dlsym error: No such process
+[2026-03-20 21:44:25] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 21:44:25] [INFO] Python loader logging callbacks initialized
+[2026-03-20 21:44:25] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 21:44:25] [INFO] Journal buffer initialized
+[2026-03-20 21:44:25] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 21:44:25] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 21:44:25] [INFO] Skipping disabled plugin during start: opcua
+127.0.0.1 - - [20/Mar/2026 16:44:26] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:44:27] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:44:27] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 21:44:27] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 21:44:27] [INFO] {"timestamp":"1774043067","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 21:44:27] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 21:44:27] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 21:44:27] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 21:44:27] [INFO] Starting main loop
+[2026-03-20 21:44:27] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 16:44:28] "GET /api/status HTTP/1.1" 200 -
+Starting OpenPLC Runtime
+Project directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+Working directory: /c/Users/MiguelGrillo/Documents/codex/rtac-sim-openplc/openplc-runtime
+[0;34m[INFO][0m Checking for plugins that need virtual environments...
+[0;34m[INFO][0m Found plugin with requirements: modbus_master
+[0;34m[INFO][0m Found plugin with requirements: modbus_slave
+[0;34m[INFO][0m Found plugin with requirements: opcua
+[0;34m[INFO][0m Found 3 plugin(s) that need virtual environments
+[0;34m[INFO][0m Virtual environment already exists for modbus_master
+[0;34m[INFO][0m Dependencies are up to date for modbus_master
+[0;34m[INFO][0m Virtual environment already exists for modbus_slave
+[0;34m[INFO][0m Dependencies are up to date for modbus_slave
+[0;34m[INFO][0m Virtual environment already exists for opcua
+[0;34m[INFO][0m Dependencies are up to date for opcua
+[0;32m[SUCCESS][0m All plugin virtual environments are ready
+[0;34m[INFO][0m Runtime virtual environment already exists.
+[2026-03-20 21:45:44] [INFO] psutil not available - process detection features disabled
+[2026-03-20 21:45:45] [INFO] Starting PLC runtime core...
+[2026-03-20 21:45:45] [INFO] Log server started at /run/runtime/log_runtime.socket
+[2026-03-20 21:45:45] [INFO] Client connected
+[2026-03-20 21:45:45] [INFO] UNIX socket server setup at /run/runtime/plc_runtime.socket
+[2026-03-20 21:45:45] [INFO] [PLUGIN]: Plugin driver system created
+[2026-03-20 21:45:45] [INFO] Using venv for modbus_slave: ./venvs/modbus_slave/lib/python3.12/site-packages
+[2026-03-20 21:45:46] [INFO] Python plugin 'simple_modbus' symbols loaded successfully
+[2026-03-20 21:45:46] [INFO]   - init: (PASS)
+[2026-03-20 21:45:46] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:45:46] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:45:46] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:45:46] [INFO] Using venv for modbus_master: ./venvs/modbus_master/lib/python3.12/site-packages
+[2026-03-20 21:45:46] [INFO] Python plugin 'modbus_master_plugin' symbols loaded successfully
+[2026-03-20 21:45:46] [INFO]   - init: (PASS)
+[2026-03-20 21:45:46] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:45:46] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:45:46] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:45:46] [INFO] Using venv for opcua: ./venvs/opcua/lib/python3.12/site-packages
+[2026-03-20 21:45:46] [INFO] Unix socket client connected
+[2026-03-20 21:45:46] [INFO] Debug WebSocket endpoint initialized at /api/debug
+[2026-03-20 21:45:46] [INFO] Non-Linux platform detected (MSYS_NT-10.0-22631). Patching recv socket...
+[2026-03-20 21:45:46] [WARNING] Credentials already generated!
+Werkzeug appears to be used in a production deployment. Consider switching to a production web server instead.
+ * Serving Flask app 'webserver.restapi'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:8443
+ * Running on https://10.1.17.44:8443
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [20/Mar/2026 16:45:47] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:47] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:47] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:47] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:47] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:45:48] [INFO] Python plugin 'plugin' symbols loaded successfully
+[2026-03-20 21:45:48] [INFO]   - init: (PASS)
+[2026-03-20 21:45:48] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:45:48] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:45:48] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:45:48] [INFO] Python plugin 'rtac_bridge_plugin' symbols loaded successfully
+[2026-03-20 21:45:48] [INFO]   - init: (PASS)
+[2026-03-20 21:45:48] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:45:48] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:45:48] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:45:48] [INFO] Native plugin './build/plugins/libs7comm_plugin.so' symbols loaded successfully
+[2026-03-20 21:45:48] [INFO]   - init: (PASS)
+[2026-03-20 21:45:48] [INFO]   - start_loop: (PASS)
+[2026-03-20 21:45:48] [INFO]   - stop_loop: (PASS)
+[2026-03-20 21:45:48] [INFO]   - cycle_start: (PASS)
+[2026-03-20 21:45:48] [INFO]   - cycle_end: (PASS)
+[2026-03-20 21:45:48] [INFO]   - cleanup: (PASS)
+[2026-03-20 21:45:48] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:45:48] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:45:48] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:45:48] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:45:48] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:45:48] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:45:48] [INFO] [PLUGIN]: All plugins initialized (not started)
+[2026-03-20 21:45:48] [INFO] [PLUGIN]: Released Python GIL
+[2026-03-20 21:45:48] [INFO] Loading PLC application
+[2026-03-20 21:45:48] [INFO] PLC State: INIT
+[2026-03-20 21:45:48] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:45:48] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:45:48] [INFO] OPC UA Plugin initializing...
+[2026-03-20 21:45:48] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:45:48] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:45:48] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:45:48] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:45:48] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 21:45:48] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 21:45:48] [INFO] Memory locking not available on this platform
+[2026-03-20 21:45:48] [ERROR] dlsym error: No such process
+[2026-03-20 21:45:48] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 21:45:48] [INFO] Python loader logging callbacks initialized
+[2026-03-20 21:45:48] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 21:45:48] [INFO] Journal buffer initialized
+[2026-03-20 21:45:48] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 21:45:48] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 21:45:48] [INFO] Skipping disabled plugin during start: opcua
+127.0.0.1 - - [20/Mar/2026 16:45:48] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:49] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:45:50] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 21:45:50] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 21:45:50] [INFO] {"timestamp":"1774043150","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 21:45:50] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 21:45:50] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 21:45:50] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 21:45:50] [INFO] Starting main loop
+[2026-03-20 21:45:50] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 16:45:50] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:51] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:52] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:45:53] [INFO] Journal buffer cleaned up
+[2026-03-20 21:45:53] [INFO] Stopping all plugins...
+[2026-03-20 21:45:53] [INFO] Stopping plugin 4/5: rtac_bridge
+[2026-03-20 21:45:53] [WARNING] Timeout waiting for message
+127.0.0.1 - - [20/Mar/2026 16:45:53] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:45:53] [INFO] [RTAC_BRIDGE] RTAC bridge stopped
+[2026-03-20 21:45:53] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 21:45:53] [INFO] Cleared all pointers in image tables
+[2026-03-20 21:45:53] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 21:45:53] [INFO] [Python loader] Cleanup complete
+[2026-03-20 21:45:53] [INFO] PLC program unloaded successfully
+[2026-03-20 21:45:53] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 16:45:53] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:45:54] [INFO] Loading PLC application
+[2026-03-20 21:45:54] [INFO] PLC State: INIT
+[2026-03-20 21:45:54] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:45:54] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:45:54] [INFO] OPC UA Plugin initializing...
+[2026-03-20 21:45:54] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:45:54] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:45:54] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:45:54] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:45:54] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 21:45:54] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 21:45:54] [INFO] Memory locking not available on this platform
+[2026-03-20 21:45:54] [ERROR] dlsym error: No such process
+[2026-03-20 21:45:54] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 21:45:54] [INFO] Python loader logging callbacks initialized
+[2026-03-20 21:45:54] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 21:45:54] [INFO] Journal buffer initialized
+[2026-03-20 21:45:54] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 21:45:54] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 21:45:54] [INFO] Skipping disabled plugin during start: opcua
+127.0.0.1 - - [20/Mar/2026 16:45:54] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:45:55] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:45:56] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 21:45:56] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 21:45:56] [INFO] {"timestamp":"1774043156","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 21:45:56] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 21:45:56] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 21:45:56] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 21:45:56] [INFO] Starting main loop
+[2026-03-20 21:45:56] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 16:45:57] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:46] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:46] "GET /api/get-users-info HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:47] "POST /api/login HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:47] "POST /api/upload-file HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:47] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:48] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:49] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:50] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:51] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:52] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:53] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:54] "GET /api/compilation-status HTTP/1.1" 200 -
+[2026-03-20 21:47:55] [INFO] Journal buffer cleaned up
+[2026-03-20 21:47:55] [INFO] Stopping all plugins...
+[2026-03-20 21:47:55] [INFO] Stopping plugin 4/5: rtac_bridge
+[2026-03-20 21:47:55] [WARNING] Timeout waiting for message
+[2026-03-20 21:47:55] [INFO] [RTAC_BRIDGE] RTAC bridge stopped
+[2026-03-20 21:47:55] [INFO] Plugin rtac_bridge stopped successfully
+[2026-03-20 21:47:55] [INFO] Cleared all pointers in image tables
+[2026-03-20 21:47:55] [INFO] [Python loader] Cleaning up 0 Python function block(s)...
+[2026-03-20 21:47:55] [INFO] [Python loader] Cleanup complete
+[2026-03-20 21:47:55] [INFO] PLC program unloaded successfully
+[2026-03-20 21:47:55] [INFO] PLC State: STOPPED
+127.0.0.1 - - [20/Mar/2026 16:47:55] "GET /api/compilation-status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:55] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:47:56] [INFO] Loading PLC application
+[2026-03-20 21:47:56] [INFO] PLC State: INIT
+[2026-03-20 21:47:56] [INFO] [MODBUS_SLAVE] Runtime arguments extracted successfully
+[2026-03-20 21:47:56] [INFO] [MODBUS_MASTER] Runtime arguments extracted successfully
+[2026-03-20 21:47:56] [INFO] OPC UA Plugin initializing...
+[2026-03-20 21:47:56] [INFO] OPC UA Plugin initialized successfully
+[2026-03-20 21:47:56] [INFO] [RTAC_BRIDGE] Initializing RTAC bridge plugin
+[2026-03-20 21:47:56] [INFO] [S7COMM] Initializing S7Comm plugin...
+[2026-03-20 21:47:56] [INFO] [S7COMM] Buffer size: 1024
+[2026-03-20 21:47:56] [INFO] [PLUGIN]: Plugins re-initialized with updated config
+[2026-03-20 21:47:56] [INFO] Real-time scheduling not available on this platform
+[2026-03-20 21:47:56] [INFO] Memory locking not available on this platform
+[2026-03-20 21:47:56] [ERROR] dlsym error: No such process
+[2026-03-20 21:47:56] [INFO] Using setBufferPointers (legacy, no bool_memory support)
+[2026-03-20 21:47:56] [INFO] Python loader logging callbacks initialized
+[2026-03-20 21:47:56] [INFO] Filled 35840 NULL pointers in image tables with temporary buffers
+[2026-03-20 21:47:56] [INFO] Journal buffer initialized
+[2026-03-20 21:47:56] [INFO] Skipping disabled plugin during start: modbus_slave
+[2026-03-20 21:47:56] [INFO] Skipping disabled plugin during start: modbus_master
+[2026-03-20 21:47:56] [INFO] Skipping disabled plugin during start: opcua
+127.0.0.1 - - [20/Mar/2026 16:47:56] "GET /api/status HTTP/1.1" 200 -
+127.0.0.1 - - [20/Mar/2026 16:47:57] "GET /api/status HTTP/1.1" 200 -
+[2026-03-20 21:47:58] [INFO] [RTAC_BRIDGE] RTAC bridge HTTP server listening on http://127.0.0.1:18080
+[2026-03-20 21:47:58] [INFO] [RTAC_BRIDGE] RTAC bridge scan loop started at 0.100s intervals
+[2026-03-20 21:47:58] [INFO] {"timestamp":"1774043278","level":"INFO","message":"[RTAC_BRIDGE] RTAC bridge started for PWRPACT_FAT_TEMP using project C:\Users\MiguelGrillo\Documents\codex\rtac-sim-openplc\production"}
+[2026-03-20 21:47:58] [INFO] Plugin rtac_bridge started successfully
+[2026-03-20 21:47:58] [INFO] Skipping disabled plugin during start: s7comm
+[2026-03-20 21:47:58] [INFO] [PLUGIN]: Enabled plugins started
+[2026-03-20 21:47:58] [INFO] Starting main loop
+[2026-03-20 21:47:58] [INFO] PLC State: RUNNING
+127.0.0.1 - - [20/Mar/2026 16:47:58] "GET /api/status HTTP/1.1" 200 -
